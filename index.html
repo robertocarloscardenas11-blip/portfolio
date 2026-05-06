@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="Roberto Carlos Cárdenas Rodríguez — Desarrollador de Software, ITCA-FEPADE. Portafolio profesional." />
+  <meta name="theme-color" content="#0a0e17" />
+  <title>Inicio · Roberto Carlos Cárdenas · ITCA-FEPADE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "./js/vendor/three/build/three.module.js",
+      "three/addons/": "./js/vendor/three/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body class="page-home">
+  <div id="webgl-root" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="./index.html">RC<span class="logo-dot">·</span>Cárdenas</a>
+    <nav class="nav" aria-label="Principal">
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a class="is-active" href="./index.html">Inicio</a></li>
+        <li><a href="./perfil.html">Perfil</a></li>
+        <li><a href="./conocimientos.html">Conocimientos</a></li>
+        <li><a href="./experiencia.html">Experiencia</a></li>
+        <li><a href="./formacion.html">Formación</a></li>
+        <li><a href="./proyecto.html">Proyecto</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero hero--home" id="inicio">
+      <div class="container hero-split">
+        <div class="hero-split-inner">
+          <p class="eyebrow">Profesional egresado · ITCA-FEPADE · Ingeniería en Desarrollo de Software</p>
+          <h1 class="hero-title">
+            <span class="line">Roberto Carlos</span>
+            <span class="line accent">Cárdenas Rodríguez</span>
+          </h1>
+          <p class="hero-sub">Desarrollador de software · Soporte técnico IT · Flutter, web y datos</p>
+          <div class="hero-cta">
+            <a class="btn primary" href="./contacto.html">Contactar</a>
+            <a class="btn ghost" href="./conocimientos.html">Ver competencias</a>
+          </div>
+          <p class="hero-hint">El fondo reacciona al cursor · Explora cada sección del sitio</p>
+        </div>
+        <div class="hero-photo-wrap">
+          <img
+            class="hero-photo"
+            src="./assets/img/profile.png"
+            alt="Retrato profesional de Roberto Carlos Cárdenas Rodríguez"
+            width="400"
+            height="500"
+            loading="eager"
+            decoding="async"
+          />
+        </div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">
+        <span>Continuar</span>
+        <span class="chev"></span>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2>Explora el portafolio</h2>
+          <p class="lead">Cada tema en su propia página: navegación clara y contenido ordenado.</p>
+        </header>
+        <div class="explore-grid">
+          <article class="explore-card">
+            <a href="./perfil.html">
+              <h3>Perfil</h3>
+              <p>Resumen profesional y enfoque de trabajo.</p>
+            </a>
+          </article>
+          <article class="explore-card">
+            <a href="./conocimientos.html">
+              <h3>Conocimientos</h3>
+              <p>Stack con iconos, tecnologías y competencias.</p>
+            </a>
+          </article>
+          <article class="explore-card">
+            <a href="./experiencia.html">
+              <h3>Experiencia</h3>
+              <p>Servicio social: soporte TI y mantenimiento de equipos en organización educativa.</p>
+            </a>
+          </article>
+          <article class="explore-card">
+            <a href="./formacion.html">
+              <h3>Formación</h3>
+              <p>ITCA-FEPADE, técnico vocacional en instituto y certificaciones Cisco.</p>
+            </a>
+          </article>
+          <article class="explore-card">
+            <a href="./proyecto.html">
+              <h3>Proyecto destacado</h3>
+              <p>IA de apoyo psicológico en Flutter + APIs.</p>
+            </a>
+          </article>
+          <article class="explore-card">
+            <a href="./contacto.html">
+              <h3>Contacto</h3>
+              <p>Correo, teléfono y ubicación.</p>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="y"></span> Roberto Carlos Cárdenas Rodríguez</span>
+      <span class="footer-tag">GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

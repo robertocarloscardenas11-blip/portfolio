@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="Proyecto IA de Apoyo Psicológico — Flutter, ITCA-FEPADE." />
+  <meta name="theme-color" content="#0a0e17" />
+  <title>Proyecto · Roberto Carlos Cárdenas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "./js/vendor/three/build/three.module.js",
+      "three/addons/": "./js/vendor/three/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body class="page-inner">
+  <div id="webgl-root" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="./index.html">RC<span class="logo-dot">·</span>Cárdenas</a>
+    <nav class="nav" aria-label="Principal">
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./perfil.html">Perfil</a></li>
+        <li><a href="./conocimientos.html">Conocimientos</a></li>
+        <li><a href="./experiencia.html">Experiencia</a></li>
+        <li><a href="./formacion.html">Formación</a></li>
+        <li><a class="is-active" href="./proyecto.html">Proyecto</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero highlight-project">
+      <div class="container">
+        <p class="eyebrow">ITCA-FEPADE</p>
+        <h1 class="page-title">Proyecto destacado</h1>
+        <p class="lead">IA de Apoyo Psicológico — aplicación móvil y conocimiento asistido por IA.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2>App móvil e IA conversacional</h2>
+          <p class="lead">Composición abstracta (móvil y nodos) que resume el flujo entre la app, las APIs y el material de referencia que alimenta las respuestas.</p>
+        </header>
+        <div class="project-showcase">
+          <div class="project-visual">
+            <canvas id="project-canvas" class="scene-canvas" width="640" height="480"></canvas>
+            <span class="mini-label">Vista interactiva · arrastra para girar</span>
+          </div>
+          <div class="project-copy">
+            <p class="project-lead-tight">
+              Proyecto académico orientado a ofrecer contención informativa mediante conversación asistida: el usuario interactúa en lenguaje natural y el sistema consulta una base de conocimiento curada por administradores.
+            </p>
+            <p class="project-prose">
+              La arquitectura separa la experiencia móvil (Flutter), las políticas de uso de la API y el procesamiento de documentos de referencia, con foco en trazabilidad básica de sesiones y mensajes para revisión.
+            </p>
+            <p class="project-tap-hint">Pulsa cada punto para ampliar.</p>
+            <ul class="project-points">
+              <li>
+                <button type="button" class="project-point-btn" data-info-title="Flutter y APIs de lenguaje" data-info-text="La aplicación está desarrollada en Flutter (Dart) para Android/iOS, con pantallas claras y manejo de estado acorde al flujo de chat.
+
+Se integran servicios de lenguaje (familia GPT) para generar respuestas contextualizadas, aplicando límites de tokens y mensajes de sistema que encajan con el propósito informativo del proyecto.">
+                  <strong>App en Flutter (Dart)</strong>
+                  <span>Integración con APIs de GPT y flujo de conversación en la app.</span>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="project-point-btn" data-info-title="Base de conocimiento desde documentos" data-info-text="Los administradores cargan libros y PDFs que se procesan para alimentar fragmentos útiles en las consultas. El objetivo es que las respuestas se apoyen en material revisado, no solo en conocimiento general del modelo.
+
+Este enfoque requiere pipelines de extracción, almacenamiento e indexación razonable para tiempos de respuesta aceptables en móvil.">
+                  <strong>Documentos como conocimiento</strong>
+                  <span>Procesamiento de libros y PDFs cargados por administradores.</span>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="project-point-btn" data-info-title="Análisis y alertas básicas" data-info-text="Se implementó un módulo de análisis emocional superficial sobre el texto de la interacción, con el fin de detectar patrones que ameriten revisión humana.
+
+Las alertas son acotadas y sirven como apoyo a supervisores, sin sustituir valoración profesional en salud mental.">
+                  <strong>Análisis emocional y alertas</strong>
+                  <span>Señalización básica para seguimiento de interacciones sensibles.</span>
+                </button>
+              </li>
+            </ul>
+            <p class="ref-note"><em>Referencias y demostraciones disponibles bajo solicitud.</em></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="y"></span> Roberto Carlos Cárdenas Rodríguez</span>
+      <span class="footer-tag">GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

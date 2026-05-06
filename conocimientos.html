@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="Stack tecnológico y competencias — curriculum digital de Roberto Carlos Cárdenas." />
+  <meta name="theme-color" content="#0a0e17" />
+  <title>Conocimientos · Roberto Carlos Cárdenas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "./js/vendor/three/build/three.module.js",
+      "three/addons/": "./js/vendor/three/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body class="page-inner">
+  <div id="webgl-root" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="./index.html">RC<span class="logo-dot">·</span>Cárdenas</a>
+    <nav class="nav" aria-label="Principal">
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./perfil.html">Perfil</a></li>
+        <li><a class="is-active" href="./conocimientos.html">Conocimientos</a></li>
+        <li><a href="./experiencia.html">Experiencia</a></li>
+        <li><a href="./formacion.html">Formación</a></li>
+        <li><a href="./proyecto.html">Proyecto</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Stack</p>
+        <h1 class="page-title">Conocimientos y tecnologías</h1>
+        <p class="lead">Qué sé hacer, con qué herramientas y en qué contextos: resumen profesional para tu revisión.</p>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <header class="section-head">
+          <h2>Stack tecnológico</h2>
+          <p class="lead">Entornos y herramientas en los que trabajo, desde fundamentos web hasta desarrollo móvil y bases de datos.</p>
+        </header>
+        <p class="knowledge-tap-hint">Pulsa una entrada para ampliar contexto sobre mi experiencia con cada una.</p>
+        <ul class="tech-tiles" aria-label="Tecnologías y herramientas">
+          <li>
+            <button type="button" class="tech-tile" data-info-title="Flutter" data-info-text="Framework multiplataforma para interfaces fluidas en Android e iOS con un solo código. Lo uso para pantallas de chat, navegación por stacks o rutas y consumo de APIs con manejo de estado ordenado.
+
+Encaja bien en proyectos con integración Firebase, formularios y listas virtualizadas cuando el volumen de datos crece.">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async" />
+              <span class="tech-tile__name">Flutter</span>
+              <span class="tech-tile__tag">Desarrollo móvil multiplataforma</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="tech-tile" data-info-title="Dart" data-info-text="Lenguaje detrás de Flutter: tipado estático opcional, async/await y buenas herramientas de análisis. Lo uso para modelos de datos, capas de servicio y pruebas unitarias básicas.
+
+Me interesa mantener código legible y separar la UI de la lógica de negocio.">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async" />
+              <span class="tech-tile__name">Dart</span>
+              <span class="tech-tile__tag">Lenguaje principal en apps Flutter</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="tech-tile" data-info-title="Java" data-info-text="Conocimientos en Java: Programación orientada a objetos, manejo de excepciones, colecciones (ArrayList, HashMap), JDBC para bases de datos, fundamentos de concurrencia con hilos y aplicaciones de consola.">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async" />
+              <span class="tech-tile__name">Java</span>
+              <span class="tech-tile__tag">Desarrollo orientado a objetos y JVM</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="tech-tile" data-info-title="C#" data-info-text="Conocimientos en C#: Programación orientada a objetos, LINQ para consultas, async/await para operaciones asíncronas, Windows Forms para interfaces gráficas, fundamentos de .NET Framework y Entity Framework para bases de datos.">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async" />
+              <span class="tech-tile__name">C#</span>
+              <span class="tech-tile__tag">Desarrollo con .NET y ecosistema Microsoft</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="tech-tile" data-info-title="HTML5" data-info-text="Estructura semántica de páginas web: uso correcto de etiquetas (header, main, section, article, nav, footer), formularios accesibles, atributos ARIA y metadatos para SEO básico.
+
+Priorizo marcado limpio que funcione sin CSS ni JS antes de añadir capas de presentación e interactividad.">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async" />
+              <span class="tech-tile__name">HTML5</span>
+              <span class="tech-tile__tag">Estructura y semántica web</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="tech-tile" data-info-title="CSS3" data-info-text="Estilos responsivos con Flexbox y Grid, variables CSS, animaciones y transiciones. Diseño mobile-first con media queries y unidades relativas para adaptarse a distintos tamaños de pantalla.
+
+Conozco metodologías de organización como BEM para mantener hojas de estilo escalables en proyectos medianos.">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async" />
+              <span class="tech-tile__name">CSS3</span>
+              <span class="tech-tile__tag">Estilos, layouts y animaciones</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="tech-tile" data-info-title="JavaScript" data-info-text="Manipulación del DOM, eventos, fetch/async-await para consumir APIs, módulos ES6+ y manejo básico de errores. Trabajo con arrays y objetos usando métodos modernos (map, filter, reduce).
+
+Evito dependencias innecesarias: prefiero JS nativo cuando la tarea no justifica una librería adicional.">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async" />
+              <span class="tech-tile__name">JavaScript</span>
+              <span class="tech-tile__tag">Interactividad y lógica en el navegador</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="tech-tile" data-info-title="Git" data-info-text="Control de versiones distribuido: ramas, merges y resolución de conflictos en equipos pequeños. Flujos habituales: main/develop, pull requests y etiquetas para releases.
+
+Registro de cambios claros facilita el mantenimiento y la revisión entre compañeros.">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async" />
+              <span class="tech-tile__name">Git</span>
+              <span class="tech-tile__tag">Control de versiones y ramas</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="tech-tile" data-info-title="GitHub" data-info-text="Alojamiento de repositorios, issues y revisiones de código. Uso Pages para sitios estáticos y acciones sencillas cuando el proyecto lo requiere.
+
+El historial público del portafolio y documentación README ayudan a contextualizar cada proyecto.">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async" />
+              <span class="tech-tile__name">GitHub</span>
+              <span class="tech-tile__tag">Repositorios y portafolio en línea</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="tech-tile" data-info-title="Firebase" data-info-text="Backend as a service: autenticación, Firestore o Realtime DB según el caso, reglas de seguridad y, en algunos proyectos, almacenamiento de archivos.
+
+Priorizo reglas mínimas viables y pruebas desde el cliente antes de escalar complejidad.">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="" width="48" height="48" loading="lazy" decoding="async" />
+              <span class="tech-tile__name">Firebase</span>
+              <span class="tech-tile__tag">Auth, datos en tiempo real, despliegue</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="tech-tile" data-info-title="SQL (MySQL)" data-info-text="Modelado relacional, claves foráneas, índices para consultas frecuentes y consultas con joins. Experiencia en migraciones ligeras y respaldos antes de cambios estructurales.
+
+Buen encaje con APIs que exponen CRUD claro y reportes tabulares.">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async" />
+              <span class="tech-tile__name">SQL (MySQL)</span>
+              <span class="tech-tile__tag">Modelado y consultas relacionales</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="tech-tile" data-info-title="NoSQL (MongoDB)" data-info-text="Documentos JSON flexibles para esquemas que evolucionan rápido. Diseño de colecciones pensando en patrones de lectura/escritura y agregaciones básicas.
+
+Combino con validación en aplicación cuando la consistencia lo exige.">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async" />
+              <span class="tech-tile__name">NoSQL (MongoDB)</span>
+              <span class="tech-tile__tag">Datos documentales flexibles</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="tech-tile" data-info-title="Windows 10 y 11" data-info-text="Instalación limpia, particiones, cuentas, drivers y actualizaciones. Experiencia en soporte: diagnóstico de arranque lento, redes en entornos educativos y ofimática estándar.
+
+Conozco herramientas integradas y buenas prácticas de seguridad básica para usuarios finales.">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async" />
+              <span class="tech-tile__name">Windows 10 / 11</span>
+              <span class="tech-tile__tag">Soporte, instalación y productividad</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="tech-tile tech-tile--si" data-info-title="Microsoft Word" data-info-text="Redacción de informes académicos y documentación técnica: estilos, tablas de contenido, referencias y plantillas alineadas a lineamientos institucionales.
+
+Útil para entregas formales y comunicación escrita clara con supervisores o evaluadores.">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/microsoftword.svg" alt="" width="44" height="44" loading="lazy" decoding="async" />
+              <span class="tech-tile__name">Microsoft Word</span>
+              <span class="tech-tile__tag">Informes y documentación formal</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="tech-tile tech-tile--si" data-info-title="Microsoft Excel" data-info-text="Tablas dinámicas, fórmulas, validación de datos y gráficos exploratorios. Apoyo en consolidación de datos de encuestas o inventarios sencillos.
+
+No reemplaza una base de datos, pero acelera análisis ad hoc y reportes compartibles.">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/microsoftexcel.svg" alt="" width="44" height="44" loading="lazy" decoding="async" />
+              <span class="tech-tile__name">Microsoft Excel</span>
+              <span class="tech-tile__tag">Análisis y reportes tabulares</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="tech-tile tech-tile--si" data-info-title="Microsoft PowerPoint" data-info-text="Presentaciones para defensas de proyecto y demos: estructura clara por diapositiva, animaciones discretas y notas del presentador.
+
+Priorizo pocas diapositivas cargadas y mensajes concretos en cada una.">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/microsoftpowerpoint.svg" alt="" width="44" height="44" loading="lazy" decoding="async" />
+              <span class="tech-tile__name">Microsoft PowerPoint</span>
+              <span class="tech-tile__tag">Presentaciones y defensas</span>
+            </button>
+          </li>
+        </ul>
+
+        <h3 class="subsection-title">Conocimientos técnicos</h3>
+        <ul class="skill-grid">
+          <li>
+            <button type="button" class="skill-card" data-info-title="Aplicaciones móviles con Flutter" data-info-text="Diseño de pantallas adaptables, manejo de estado y consumo de APIs REST. Enfoque en rendimiento fluido en dispositivos de gama media y accesibilidad básica (contraste, tamaños tocables).
+
+Iteración con pruebas en dispositivo real más que solo emulador para detectar problemas de red o permisos.">
+              Desarrollo de aplicaciones móviles con Flutter (Dart)
+            </button>
+          </li>
+          <li>
+            <button type="button" class="skill-card" data-info-title="Desarrollo web" data-info-text="Maquetación semántica, estilos responsivos y JavaScript para interactividad. Conozco fundamentos de APIs del lado servidor para consumirlas desde el cliente y validar flujos CRUD.
+
+Hábito de inspeccionar red y consola para depurar integraciones rápidamente.">
+              Desarrollo web (frontend y fundamentos backend)
+            </button>
+          </li>
+          <li>
+            <button type="button" class="skill-card" data-info-title="Bases de datos" data-info-text="Normalización cuando aporta, elección entre SQL y NoSQL según consistencia vs flexibilidad, y diagramas que el equipo pueda mantener. Considero migraciones y semillas para entornos de prueba.
+
+Documento decisiones breves para no depender solo de la memoria del equipo.">
+              Diseño y modelado de bases de datos relacionales y NoSQL
+            </button>
+          </li>
+          <li>
+            <button type="button" class="skill-card" data-info-title="Análisis y diseño" data-info-text="Descomposición de requisitos, casos de uso y estructuras de control claras antes de codificar. Priorizo legibilidad y pruebas mentales de borde (entradas vacías, errores de red).
+
+Itero con retroalimentación de usuarios o compañeros para ajustar prioridades.">
+              Lógica de programación, análisis y diseño de sistemas
+            </button>
+          </li>
+          <li>
+            <button type="button" class="skill-card" data-info-title="APIs REST y JSON" data-info-text="Cliente HTTP con manejo de códigos de error, timeouts y modelos de datos tipados donde el lenguaje lo permite. Serialización JSON y versionado razonable de endpoints cuando colaboro con backend.
+
+Evito acoplar la UI a detalles frágiles del payload cuando se puede aislar en capas.">
+              Integración de APIs REST y datos JSON
+            </button>
+          </li>
+          <li>
+            <button type="button" class="skill-card" data-info-title="Machine Learning y estadística" data-info-text="Fundamentos de entrenamiento supervisado, métricas básicas y separación entrenamiento/prueba. En proyectos académicos, interpretación cautelosa de resultados y límites del modelo.
+
+No sustituye dominio del problema humano; orienta experimentos y prototipos.">
+              Fundamentos de Machine Learning y análisis estadístico
+            </button>
+          </li>
+          <li>
+            <button type="button" class="skill-card" data-info-title="Soporte IT" data-info-text="Diagnóstico por capas (hardware, sistema, red, aplicación), comunicación con usuarios no técnicos y documentación corta del ticket. Experiencia en campo con equipos de escritorio y portátiles.
+
+Enfatizo prevención: actualizaciones, copias y hábitos que reduzcan incidentes repetidos.">
+              Soporte IT: hardware y software
+            </button>
+          </li>
+          <li>
+            <button type="button" class="skill-card" data-info-title="Ágil y calidad" data-info-text="Organización del backlog, entregas incrementales y revisión de código entre pares. Pruebas manuales estructuradas y listas de verificación antes de fusionar cambios delicados.
+
+Busco equilibrio entre velocidad y deuda técnica manejable.">
+              Metodologías ágiles y control de calidad del software
+            </button>
+          </li>
+          <li>
+            <button type="button" class="skill-card" data-info-title="HTML y CSS" data-info-text="Maquetación semántica con HTML5 y estilos responsivos con CSS3: Flexbox, Grid, variables y animaciones. Diseño mobile-first con media queries para adaptarse a distintos dispositivos.
+
+Hábito de validar el marcado y revisar contraste de colores para cumplir criterios básicos de accesibilidad.">
+              Maquetación web con HTML5 y CSS3
+            </button>
+          </li>
+          <li>
+            <button type="button" class="skill-card" data-info-title="JavaScript moderno" data-info-text="ES6+: módulos, destructuring, spread, async/await y Promises. Manipulación del DOM, eventos y consumo de APIs con fetch. Depuración en DevTools y uso de la consola para iterar rápido.
+
+Prefiero código legible y sin dependencias innecesarias antes de introducir frameworks.">
+              JavaScript (ES6+): DOM, eventos y APIs
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="y"></span> Roberto Carlos Cárdenas Rodríguez</span>
+      <span class="footer-tag">GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
