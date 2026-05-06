@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="Técnico vocacional en desarrollo de software (Instituto Nacional Ernesto Flores), ITCA-FEPADE y certificaciones — Roberto Carlos Cárdenas." />
+  <meta name="theme-color" content="#0a0e17" />
+  <title>Formación · Roberto Carlos Cárdenas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "./js/vendor/three/build/three.module.js",
+      "three/addons/": "./js/vendor/three/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body class="page-inner">
+  <div id="webgl-root" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="./index.html">RC<span class="logo-dot">·</span>Cárdenas</a>
+    <nav class="nav" aria-label="Principal">
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./perfil.html">Perfil</a></li>
+        <li><a href="./conocimientos.html">Conocimientos</a></li>
+        <li><a href="./experiencia.html">Experiencia</a></li>
+        <li><a class="is-active" href="./formacion.html">Formación</a></li>
+        <li><a href="./proyecto.html">Proyecto</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Estudios</p>
+        <h1 class="page-title">Formación académica</h1>
+        <p class="lead">Técnico vocacional en desarrollo de software en el Instituto Nacional Ernesto Flores; formación en ITCA-FEPADE y certificaciones.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="edu-grid">
+          <article class="edu-card">
+            <span class="edu-badge">2024 – 2025</span>
+            <h3>ITCA-FEPADE</h3>
+            <p class="edu-role">Técnico en Ingeniería de Desarrollo de Software</p>
+            <p class="edu-note">Formación técnica de nivel medio superior orientada al desarrollo de software, buenas prácticas y proyectos aplicados.</p>
+          </article>
+          <article class="edu-card">
+            <span class="edu-badge">2021 – 2023</span>
+            <h3>Instituto Nacional Ernesto Flores</h3>
+            <p class="edu-role">Técnico vocacional en Desarrollo de Software</p>
+            <p class="edu-note">Bachillerato con opción técnica en desarrollo de software: programación, análisis básico de sistemas y proyectos aplicados durante la educación media.</p>
+          </article>
+        </div>
+
+        <h3 class="subsection-title">Cursos y certificaciones</h3>
+        <ul class="cert-list">
+          <li>
+            <strong>CCNA: Introduction to Networks</strong> — Cisco Networking Academy · Finalización 23 oct 2024
+          </li>
+          <li>
+            <strong>ITE 7.01 Spanish (IT Essential 7)</strong> — ITCA-FEPADE Santa Tecla · Finalización 26 nov 2025
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="y"></span> Roberto Carlos Cárdenas Rodríguez</span>
+      <span class="footer-tag">GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

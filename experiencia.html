@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="Experiencia en soporte IT y servicio social — Roberto Carlos Cárdenas." />
+  <meta name="theme-color" content="#0a0e17" />
+  <title>Experiencia · Roberto Carlos Cárdenas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "./js/vendor/three/build/three.module.js",
+      "three/addons/": "./js/vendor/three/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body class="page-inner">
+  <div id="webgl-root" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="./index.html">RC<span class="logo-dot">·</span>Cárdenas</a>
+    <nav class="nav" aria-label="Principal">
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./perfil.html">Perfil</a></li>
+        <li><a href="./conocimientos.html">Conocimientos</a></li>
+        <li><a class="is-active" href="./experiencia.html">Experiencia</a></li>
+        <li><a href="./formacion.html">Formación</a></li>
+        <li><a href="./proyecto.html">Proyecto</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Campo profesional</p>
+        <h1 class="page-title">Experiencia</h1>
+        <p class="lead">Soporte Técnico — Enlaces (Servicio Social), Usulután.</p>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <header class="section-head">
+          <h2>Soporte técnico y mantenimiento de equipos</h2>
+          <p class="lead">Servicio social en <strong>Enlaces, Usulután</strong>: soporte presencial a usuarios, mantenimiento de hardware y software, e instalación de sistemas operativos en equipos de la organización. El apartado gráfico muestra un <strong>modelo 3D de placa madre AM4</strong> (formato glTF) con sus componentes integrados.</p>
+        </header>
+        <div class="experience-side experience-layout">
+          <div class="canvas-panel">
+            <canvas id="pc-canvas" class="scene-canvas" width="640" height="480"></canvas>
+            <p class="canvas-caption">Arrastra para rotar la vista · rueda del ratón para zoom</p>
+          </div>
+          <div class="experience-aside">
+            <dl class="experience-meta">
+              <div>
+                <dt>Organización</dt>
+                <dd>Enlaces (Servicio Social), Usulután</dd>
+              </div>
+              <div>
+                <dt>Enfoque</dt>
+                <dd>Soporte técnico presencial, mantenimiento preventivo y correctivo</dd>
+              </div>
+              <div>
+                <dt>Herramientas frecuentes</dt>
+                <dd>Instaladores de SO, utilidades de disco, antivirus, suites ofimáticas, cableado y revisión de componentes</dd>
+              </div>
+            </dl>
+            <p class="experience-blurb">
+              El servicio incluyó acompañamiento a usuarios con distintos niveles de familiaridad con la tecnología: explicación clara de pasos, verificación posterior al cambio de piezas o software, y recomendaciones de copias de seguridad y hábitos de uso.
+            </p>
+          </div>
+        </div>
+
+        <h3 class="subsection-title">Actividades principales</h3>
+        <p class="timeline-tap-hint">Pulsa cada bloque para ampliar el detalle.</p>
+        <ul class="timeline">
+          <li>
+            <button type="button" class="timeline-item" data-info-title="Soporte a usuarios" data-info-text="Brindé orientación a personal administrativo y académico ante fallos de software, cuentas y conectividad. Apliqué un flujo de diagnóstico ordenado: reproducir el problema, aislar la causa (local vs red), aplicar la solución y confirmar el funcionamiento con el usuario.
+
+Dejé notas breves cuando el caso podía repetirse, para agilizar la próxima intervención.">
+              <strong>Soporte a usuarios</strong>
+              <span>Atención, diagnóstico y resolución de incidencias en equipo.</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="timeline-item" data-info-title="Mantenimiento de PCs y laptops" data-info-text="Realicé limpieza interna controlada, revisión de ventilación, sustitución de almacenamiento o RAM cuando correspondía, y actualización de controladores esenciales. Verifiqué arranque, rendimiento básico y estabilidad tras cada mantenimiento.
+
+Promoví buenas prácticas: uso de regletas, evitar sobrecalentamiento, cierre correcto de sesiones y revisiones periódicas de espacio en disco.">
+              <strong>Mantenimiento de PCs y laptops</strong>
+              <span>Hardware, actualizaciones y buenas prácticas de uso.</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="timeline-item" data-info-title="Instalación y configuración de Windows 10/11" data-info-text="Preparé equipos con particiones coherentes con el uso del aula u oficina, cuentas locales o de dominio según el contexto, y paquete de software estándar (navegador, ofimática, antivirus donde aplica). Ajusté opciones de energía, actualizaciones y privacidad conforme a las políticas del lugar.
+
+Entregué el equipo con pruebas de red, audio, periféricos y acceso a impresoras o recursos compartidos, para minimizar tickets posteriores.">
+              <strong>Instalación y configuración de Windows 10/11</strong>
+              <span>Entornos listos para productividad y soporte continuo.</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2>Proyecto académico destacado</h2>
+          <p class="lead">IA de Apoyo Psicológico — aplicación móvil desarrollada en Flutter con integración de APIs de IA para conversación asistida.</p>
+        </header>
+        <p class="experience-blurb">
+          Proyecto orientado a ofrecer contención informativa mediante conversación asistida: el usuario interactúa en lenguaje natural y el sistema consulta una base de conocimiento curada por administradores. La arquitectura separa la experiencia móvil (Flutter), las políticas de uso de la API y el procesamiento de documentos de referencia, con foco en trazabilidad básica de sesiones y mensajes para revisión.
+        </p>
+        <h3 class="subsection-title">Aspectos clave</h3>
+        <ul class="timeline">
+          <li>
+            <button type="button" class="timeline-item" data-info-title="Desarrollo en Flutter" data-info-text="La aplicación está desarrollada en Flutter (Dart) para Android/iOS, con pantallas claras y manejo de estado acorde al flujo de chat. Se integran servicios de lenguaje (familia GPT) para generar respuestas contextualizadas.">
+              <strong>App en Flutter (Dart)</strong>
+              <span>Integración con APIs de GPT y flujo de conversación.</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="timeline-item" data-info-title="Base de conocimiento" data-info-text="Los administradores cargan libros y PDFs que se procesan para alimentar fragmentos útiles en las consultas. El objetivo es que las respuestas se apoyen en material revisado, no solo en conocimiento general del modelo.">
+              <strong>Documentos como conocimiento</strong>
+              <span>Procesamiento de libros y PDFs para respuestas contextuales.</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="timeline-item" data-info-title="Análisis emocional" data-info-text="Se implementó un módulo de análisis emocional superficial sobre el texto de la interacción, con el fin de detectar patrones que ameriten revisión humana. Las alertas son acotadas y sirven como apoyo a supervisores.">
+              <strong>Análisis emocional y alertas</strong>
+              <span>Señalización básica para seguimiento de interacciones sensibles.</span>
+            </button>
+          </li>
+        </ul>
+        <p class="ref-note"><em>Referencias y demostraciones disponibles bajo solicitud. Ver <a href="./proyecto.html">página dedicada</a> para más detalles.</em></p>
+      </div>
+    </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="y"></span> Roberto Carlos Cárdenas Rodríguez</span>
+      <span class="footer-tag">GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

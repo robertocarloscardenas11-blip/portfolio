@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="Perfil profesional — Roberto Carlos Cárdenas Rodríguez · técnico vocacional en Desarrollo de Software (Instituto Nacional Ernesto Flores), ITCA-FEPADE." />
+  <meta name="theme-color" content="#0a0e17" />
+  <title>Perfil · Roberto Carlos Cárdenas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "./js/vendor/three/build/three.module.js",
+      "three/addons/": "./js/vendor/three/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body class="page-inner page-perfil">
+  <div id="webgl-root" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="./index.html">RC<span class="logo-dot">·</span>Cárdenas</a>
+    <nav class="nav" aria-label="Principal">
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a class="is-active" href="./perfil.html">Perfil</a></li>
+        <li><a href="./conocimientos.html">Conocimientos</a></li>
+        <li><a href="./experiencia.html">Experiencia</a></li>
+        <li><a href="./formacion.html">Formación</a></li>
+        <li><a href="./proyecto.html">Proyecto</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Sobre mí</p>
+        <h1 class="page-title">Perfil profesional</h1>
+        <p class="lead">Técnico vocacional en desarrollo de software (Instituto Nacional Ernesto Flores); formación en ITCA-FEPADE. Enfoque en desarrollo de software y soporte técnico.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container profile-layout">
+        <div class="profile-photo-card">
+          <img src="./assets/img/profile.png" alt="Retrato profesional de Roberto Carlos Cárdenas Rodríguez" width="320" height="400" loading="lazy" decoding="async" />
+        </div>
+        <div class="card profile-card">
+          <p>
+            <strong>Técnico vocacional en Desarrollo de Software</strong> (Instituto Nacional Ernesto Flores). Formación
+            continuada en <strong>ITCA-FEPADE</strong>. Experiencia en <strong>soporte técnico</strong> y fundamentos de
+            programación. Conocimientos en desarrollo de aplicaciones, bases de datos y fundamentos de machine learning,
+            con enfoque en calidad del software y trabajo en equipo.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="y"></span> Roberto Carlos Cárdenas Rodríguez</span>
+      <span class="footer-tag">GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
